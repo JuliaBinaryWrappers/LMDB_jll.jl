@@ -1,115 +1,143 @@
 [[LMDB]]
 arch = "aarch64"
-git-tree-sha1 = "4062c0e3d72db624d14e0973c545854f2e760aa7"
-libc = "glibc"
-os = "linux"
-
-    [[LMDB.download]]
-    sha256 = "47a732dd64033ed78993d2c2411c58ca4e014130449463210334f8f3c9578d45"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.aarch64-linux-gnu.tar.gz"
-[[LMDB]]
-arch = "aarch64"
-git-tree-sha1 = "723dad158eb6296864b9e4d5ef01b912b38af274"
-libc = "musl"
-os = "linux"
-
-    [[LMDB.download]]
-    sha256 = "852f338a5444b70389a77bb6587b3e6526b2d441d04f18b74887bc87b0b77219"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.aarch64-linux-musl.tar.gz"
-[[LMDB]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "7587583a1794e9b557e98e16ce9c229fb3ca8043"
-libc = "glibc"
-os = "linux"
-
-    [[LMDB.download]]
-    sha256 = "305e83b0fdeb8785b739e14a7f37c7f3924562f6168621236a7ba973b2e911a4"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.armv7l-linux-gnueabihf.tar.gz"
-[[LMDB]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "4567f459157bb7f1ef591853e8597d546ce7eaab"
-libc = "musl"
-os = "linux"
-
-    [[LMDB.download]]
-    sha256 = "88073e96326360b1f93b844470361f0781aadb6376793794678e7cd9ef7c2f54"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.armv7l-linux-musleabihf.tar.gz"
-[[LMDB]]
-arch = "i686"
-git-tree-sha1 = "06fba1dde62fa7b6b057d45f759a5fad0f7fc622"
-libc = "glibc"
-os = "linux"
-
-    [[LMDB.download]]
-    sha256 = "1a70cbe691e8f4b6e9aaf34609c7bca63428e7faf34590a0952e977f2dde178e"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.i686-linux-gnu.tar.gz"
-[[LMDB]]
-arch = "i686"
-git-tree-sha1 = "abe776bed5ab6e5756934e644b069bd46fb8ce2f"
-libc = "musl"
-os = "linux"
-
-    [[LMDB.download]]
-    sha256 = "89d43f7ccb25df601d5a56a433cbd4391ec2226c0328790a130531fc7af598e9"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.i686-linux-musl.tar.gz"
-[[LMDB]]
-arch = "i686"
-git-tree-sha1 = "5e059d2bbf8dd500b13a33c4b6e5dd28ca3719fd"
-os = "windows"
-
-    [[LMDB.download]]
-    sha256 = "94fd95e67853084650321dea594bd769053b51fd12a8f788a420234b15af5bb1"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.i686-w64-mingw32.tar.gz"
-[[LMDB]]
-arch = "powerpc64le"
-git-tree-sha1 = "bd9556184ffb8d3d917edfe44055d2b1d0919782"
-libc = "glibc"
-os = "linux"
-
-    [[LMDB.download]]
-    sha256 = "525fc316999901a8195b8cf99b6c05b3a7246e1f9f626400c3104bbd7dc8fda5"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.powerpc64le-linux-gnu.tar.gz"
-[[LMDB]]
-arch = "x86_64"
-git-tree-sha1 = "fb46a009e99e8c80824bad1f1645f774e644035c"
+git-tree-sha1 = "68b05709b19ad9352eb30f83bebe04bca9bd0f99"
 os = "macos"
 
     [[LMDB.download]]
-    sha256 = "72eb0f9bfaedc72784567b8f110eb0f5525938466504f316b942697dbfced925"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.x86_64-apple-darwin.tar.gz"
+    sha256 = "cfc174aad015316ce249ca86ef5ecc002eb530f7f07402e7ef5dfe3695ab1484"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.aarch64-apple-darwin.tar.gz"
 [[LMDB]]
-arch = "x86_64"
-git-tree-sha1 = "6a719a1ac3f0074562aab2d0d30d58b2eacd6ed4"
+arch = "aarch64"
+git-tree-sha1 = "1b49547a3584ab602a9f570f0fdd922a6237e7d3"
 libc = "glibc"
 os = "linux"
 
     [[LMDB.download]]
-    sha256 = "9898c6b3f037a5aac86e8566cc69553a9c3c195afe393401776f6b1163af353d"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.x86_64-linux-gnu.tar.gz"
+    sha256 = "3188a43e305632f97166a458165c0c35017105e38bac8542d89caead55466eb5"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.aarch64-linux-gnu.tar.gz"
 [[LMDB]]
-arch = "x86_64"
-git-tree-sha1 = "95bbf0efa063bd7ec9974cc8ec7e593b379f71d7"
+arch = "aarch64"
+git-tree-sha1 = "51e4b0616a61ce94dc78d38f6d2a26a366a8b7d2"
 libc = "musl"
 os = "linux"
 
     [[LMDB.download]]
-    sha256 = "c1ada582c1fcd016f5eb8d326f4d55635b96920836922cb7513be9afacf9a8a9"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.x86_64-linux-musl.tar.gz"
+    sha256 = "34428658c1a05c738aa3bb457838c899188cbaeaea0f2905761db06ef39b7f6f"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.aarch64-linux-musl.tar.gz"
 [[LMDB]]
-arch = "x86_64"
-git-tree-sha1 = "7d9d37af699e8385cc6ca6ab74091d90ceea1b12"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "fc263ec19ce1bded4a5f86bac3bcd3b13f667cee"
+libc = "glibc"
+os = "linux"
 
     [[LMDB.download]]
-    sha256 = "e83fcc6c5926aab7f6433bb718a838552fe6192fc3225d3650eb1fb21433c8ab"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "dedd33a88d9842ed00988a74ab6f987a435e70c6a579481f34437fcef1838650"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.armv6l-linux-gnueabihf.tar.gz"
 [[LMDB]]
-arch = "x86_64"
-git-tree-sha1 = "a140d7437ecf0a7d862d1af8e8dc5c88db808948"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "50c5330035d73a17973a4516289955ed2a81c9d4"
+libc = "musl"
+os = "linux"
+
+    [[LMDB.download]]
+    sha256 = "c19fdcebcf0d206d9eb67b189437cb390397d02d6c06d1528badcfaa2e997d98"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.armv6l-linux-musleabihf.tar.gz"
+[[LMDB]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "d3924e8fc1ee5b70c7a54e516daee92d2a3b96d6"
+libc = "glibc"
+os = "linux"
+
+    [[LMDB.download]]
+    sha256 = "a57df8e3df4e086d1ec332b6790602ba320a74d6a1a930bb3a35c03e7e354779"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.armv7l-linux-gnueabihf.tar.gz"
+[[LMDB]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "02ecd4d6cc550e4c6728aed793c164a20c32c3da"
+libc = "musl"
+os = "linux"
+
+    [[LMDB.download]]
+    sha256 = "b9c86845db46c81fd4f6548858c5c841d6f4a555c7805ba4edd8287d35f0a6b4"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.armv7l-linux-musleabihf.tar.gz"
+[[LMDB]]
+arch = "i686"
+git-tree-sha1 = "57a8990dc11b494af285fc78482d596a7fa12804"
+libc = "glibc"
+os = "linux"
+
+    [[LMDB.download]]
+    sha256 = "f475668c49011174bebd367f529f35c4b84bdae3cb0626da9fa236ef60befcc7"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.i686-linux-gnu.tar.gz"
+[[LMDB]]
+arch = "i686"
+git-tree-sha1 = "53273d890475e500b74ba64a461a9a3c70270acd"
+libc = "musl"
+os = "linux"
+
+    [[LMDB.download]]
+    sha256 = "d4a6b3b630d151f370458a5dc544ac9d8fad187c23cca0e8d9a45897bcf9a4bd"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.i686-linux-musl.tar.gz"
+[[LMDB]]
+arch = "i686"
+git-tree-sha1 = "5c55b2605721d61f8682bfcb0d77822decf26e9b"
 os = "windows"
 
     [[LMDB.download]]
-    sha256 = "63d70728e4d7c824061e26dc0fb0e5af4f92813815a3c2ad9f6b692d0204f5dc"
-    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.27+0/LMDB.v0.9.27.x86_64-w64-mingw32.tar.gz"
+    sha256 = "bc70d1d3a0e24f46e9e124f3f59797382d0fdaa6336268fa3733487c2574bfd2"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.i686-w64-mingw32.tar.gz"
+[[LMDB]]
+arch = "powerpc64le"
+git-tree-sha1 = "880cf7351bc05ee4d98f930aeb60fa0ca86b1544"
+libc = "glibc"
+os = "linux"
+
+    [[LMDB.download]]
+    sha256 = "e9ab1008198a8fc352aea68f96b239032496c9f385f67764f71ed862cfd64457"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.powerpc64le-linux-gnu.tar.gz"
+[[LMDB]]
+arch = "x86_64"
+git-tree-sha1 = "76a54f6ad1ba96611fb071763c4b1ce8b898772f"
+os = "macos"
+
+    [[LMDB.download]]
+    sha256 = "f7d0f6732bf886767188274f6c40c2877543e62f2d23d78dd72a22e391688c04"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.x86_64-apple-darwin.tar.gz"
+[[LMDB]]
+arch = "x86_64"
+git-tree-sha1 = "e64403dcd629ad7171dab18546a122c8d317a694"
+libc = "glibc"
+os = "linux"
+
+    [[LMDB.download]]
+    sha256 = "9088468752b354effb28681901c8f9975aad9689bdcbd11af0e0179196320152"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.x86_64-linux-gnu.tar.gz"
+[[LMDB]]
+arch = "x86_64"
+git-tree-sha1 = "b128f6a6caa2a5c4aa6823ef7a7110d7c259a54a"
+libc = "musl"
+os = "linux"
+
+    [[LMDB.download]]
+    sha256 = "1e75708370a0d8ac6ed43fbc4a04a7ede091646ad9d6bb1dfa268022730633be"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.x86_64-linux-musl.tar.gz"
+[[LMDB]]
+arch = "x86_64"
+git-tree-sha1 = "c08c316ea6c8b07218cc1ef1ebe18ba580447bcb"
+os = "freebsd"
+
+    [[LMDB.download]]
+    sha256 = "560d68951ceaaa295f17aeb69482ce08830addf831ec6dd413d672ff6e65cb81"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.x86_64-unknown-freebsd.tar.gz"
+[[LMDB]]
+arch = "x86_64"
+git-tree-sha1 = "ffd7c31b4422c7db7c34ab1f15a561db358cc2bd"
+os = "windows"
+
+    [[LMDB.download]]
+    sha256 = "23dbea49be943e6c83eaed36c7eb0bb957f5664d6ff901441f63e7dfbee6b464"
+    url = "https://github.com/JuliaBinaryWrappers/LMDB_jll.jl/releases/download/LMDB-v0.9.33+0/LMDB.v0.9.33.x86_64-w64-mingw32.tar.gz"
