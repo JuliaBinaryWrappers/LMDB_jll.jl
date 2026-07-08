@@ -1,6 +1,6 @@
 name = "LMDB_jll"
 uuid = "6206cf0b-f360-5984-af49-5437264c140e"
-version = "0.9.35+0"
+version = "1.0.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
